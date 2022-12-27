@@ -15,7 +15,7 @@ def removeDuplicates(arr):
     for i in arr:
         if i not in newArray:
             newArray.append(i)
-        print(newArray)
+    print(newArray)
 
 
 print(removeDuplicates(myList))
