@@ -9,11 +9,11 @@ middle(myList)  # o/p: [2,3]
 myList = [1, 2, 3, 4, 0]
 
 
-def middleFuntion(arr):
+def middle(arr):
     newArray = arr.copy()
     del newArray[0]
     del newArray[-1]
     return newArray
 
 
-print(middleFuntion(myList))
+print(middle(myList))
