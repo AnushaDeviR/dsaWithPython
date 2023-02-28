@@ -24,7 +24,6 @@ def sortedSquares(self, nums):
 
     l = 0 
     r = len(nums) - 1
-    print('len', len(nums))
     while l <= r: 
         sqr_l = nums[l] * nums[l]
         sqr_r = nums[r] * nums[r] 
