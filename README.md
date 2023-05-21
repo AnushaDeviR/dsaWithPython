@@ -8,3 +8,5 @@ Leetcode Problem No. | Problem  | Difficulty
 9.| [Palindrome number](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/palindromeNumber.py)| Easy
 13.| [Roman to Integer](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/romanToInteger.py)| Easy
 14.| [Longest Common Prefix](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/longestCommonPrefix.py)| Easy
+20.| [Valid Parentheses](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/validParentheses.py)| Easy
+
