@@ -10,3 +10,4 @@ Leetcode Problem No. | Problem  | Difficulty
 14.| [Longest Common Prefix](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/longestCommonPrefix.py)| Easy
 20.| [Valid Parentheses](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/validParentheses.py)| Easy
 21.| [Merge Two Sorted Lists](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/mergeTwoSortedLists.py)| Easy
+26.| [Remove Duplicates from Sorted](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/removeDuplicatesFromSortedArray.py)| Easy
