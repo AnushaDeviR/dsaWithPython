@@ -12,3 +12,4 @@ Leetcode Problem No. | Problem  | Difficulty
 21.| [Merge Two Sorted Lists](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/mergeTwoSortedLists.py)| Easy
 26.| [Remove Duplicates from Sorted](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/removeDuplicatesFromSortedArray.py)| Easy
 27.| [Remove Element](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/removeElement.py)| Easy
+28.| [Find the Index of the First Occurrence in a String](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/indexOfFirstOccuranceInString.py)| Easy
