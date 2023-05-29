@@ -1,6 +1,6 @@
 '''
-You're given strings jewels representing the types of stones that are jewels, 
-and stones representing the stones you have. Each character in stones is a type of stone you have. 
+You're given strings jewels representing the types of stones that are jewels,
+and stones representing the stones you have. Each character in stones is a type of stone you have.
 You want to know how many of the stones you have are also jewels.
 
 Letters are case sensitive, so "a" is considered a different type of stone from "A".
@@ -19,20 +19,31 @@ jewels and stones consist of only English letters.
 All the characters of jewels are unique.
 '''
 
+
 def numJewelsInStones(self, jewels: str, stones: str) -> int:
 
-    stones_list = {} 
-    isJewel = 0 
+    # Solution using Hash Map
+    # time complexity = O(N*M) and space complexity = O(N)
 
-    for stone in stones: 
-        if stone in stones_list: 
-            stones_list[stone] += 1
-        else:
-            stones_list[stone] = 1
-    print(stones_list)
+    #   stones_list = {}
+    #   isJewel = 0
 
-    for j in range(len(jewels)): 
-        if jewels[j] in stones_list:
-            isJewel += stones_list[jewels[j]]
+    #   for stone in stones:
+    #       if stone in stones_list:
+    #          stones_list[stone] += 1
+    #      else:
+    #          stones_list[stone] = 1
+
+    #   for j in range(len(jewels)):
+    #      if jewels[j] in stones_list:
+    #          isJewel += stones_list[jewels[j]]
+
+    #  return isJewel
+
+    isJewel = 0
+
+    for stone in stones:
+        if stone in jewels:
+            isJewel += 1
 
     return isJewel
