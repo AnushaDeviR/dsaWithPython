@@ -16,4 +16,4 @@ Leetcode Problem No. | Problem  | Difficulty
 35.| [Search Insert Position](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/searchInsertPosition.py)| Easy
 58.| [Length of Last Word](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/lengthOfLastWord.py)| Easy
 771.| [Jewels and Stones](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/jewelsAndStones.py)| Easy
-
+1365.| [How many numbers are smaller than the current number](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/smallerNumbersThanCurrent.py)| Easy
