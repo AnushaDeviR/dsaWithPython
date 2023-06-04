@@ -2,8 +2,8 @@
 
 Leet code problems: 
 
-Leetcode Problem No. | Problem  | Difficulty
--- | ------------- | -------------
+Leetcode Problem No. | Problem  | Difficulty | Topics
+-- | ------------- | ------------- | ----
 1.| [Two Sum](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/twoSum.py)| Easy
 9.| [Palindrome number](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/palindromeNumber.py)| Easy
 13.| [Roman to Integer](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/romanToInteger.py)| Easy
@@ -17,3 +17,4 @@ Leetcode Problem No. | Problem  | Difficulty
 58.| [Length of Last Word](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/lengthOfLastWord.py)| Easy
 771.| [Jewels and Stones](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/jewelsAndStones.py)| Easy
 1365.| [How many numbers are smaller than the current number](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/smallerNumbersThanCurrent.py)| Easy
+763.| [Partition Labels](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/partitionLabels.py) | Medium
