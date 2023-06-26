@@ -20,3 +20,4 @@ Leetcode Problem No. | Problem  | Difficulty | Topics
 763.| [Partition Labels](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/partitionLabels.py) | Medium
 922.| [Sort Array By Parity II](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/sortArrayByParityII.py) | Easy | Array, 2 pointers, Sorting
 125.| [Valid Palindrome](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/validPalindrome.py) | Easy | 2 pointers, String
+75.| [Sort Colors](https://github.com/AnushaDeviR/dsaWithPython/blob/main/leetcode-data-structures/data-structures-1/sortColors.py) | Medium | 2 pointers, String, Array
