@@ -21,5 +21,8 @@ class Solution:
 
 ''' 
 Explanation: 
-By using Floyd’s algorithm (cycle-finding algorithm) which uses 2 pointers - slow, fast method where slow starts at the 0th index and fast is at slow += 2. So when slow == fast then it means that there is a cycle. When a cycle exists in a LL no matter what slow and fast meets at a same node.
+By using Floyd’s algorithm (cycle-finding algorithm) which uses 2 pointers - slow, 
+fast method where slow starts at the 0th index and fast is at slow += 2. 
+So when slow == fast then it means that there is a cycle. When a cycle exists in a LL no matter what slow and fast meets at a same node.
 '''
+
