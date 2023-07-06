@@ -17,20 +17,20 @@ Input: nums = [1,3,5,6], target = 7
 Output: 4
 '''
 
+
 def searchInsert(self, nums: List[int], target: int) -> int:
 
-    l = 0 
+    l = 0
     r = len(nums) - 1
 
-    while l <= r: 
+    while l <= r:
         mid = (l+r) // 2
         if nums[mid] == target:
             print(nums[mid])
             return mid
         elif nums[mid] < target:
             l = mid + 1
-        else: 
+        else:
             r = mid - 1
 
     return l
-                

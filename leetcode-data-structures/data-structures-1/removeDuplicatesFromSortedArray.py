@@ -33,11 +33,12 @@ Explanation: Your function should return k = 5, with the first five elements of 
 It does not matter what you leave beyond the returned k (hence they are underscores).
 '''
 
+
 def removeDuplicates(self, nums: List[int]) -> int:
 
-    l = 1 #left pointer starts at index 1
+    l = 1  # left pointer starts at index 1
     # right pointer loops throughout the array, starting from index 1
-    for r in range(1, len(nums)): 
+    for r in range(1, len(nums)):
         print(nums[l], nums[r])
         if nums[r] != nums[r - 1]:
             nums[l] = nums[r]

@@ -38,10 +38,11 @@ Note that the five elements can be returned in any order.
 It does not matter what you leave beyond the returned k (hence they are underscores).
 '''
 
-def removeElement(self, nums: List[int], val: int) -> int:
-    l = 0 
 
-    for r in range(len(nums)): 
+def removeElement(self, nums: List[int], val: int) -> int:
+    l = 0
+
+    for r in range(len(nums)):
         if nums[r] != val:
             nums[l], nums[r] = nums[r], nums[l]
             l += 1

@@ -31,23 +31,25 @@ Output: [10]
 - `s` consists of lowercase English letters.
 '''
 
+
 def partitionLabels(self, s: str) -> List[int]:
 
-        lastOccurance = {}
-        out = []
+    lastOccurance = {}
+    out = []
 
-        l, r = 0, 0
-       
-        for count, value in enumerate(s): 
-            lastOccurance[value] = count # inserts the index of the last occured letter
+    l, r = 0, 0
 
-        for count, value in enumerate(s): 
-            l += 1
-            r = max(r, lastOccurance[value]) # gets the max. index from enumerated value
+    for count, value in enumerate(s):
+        # inserts the index of the last occured letter
+        lastOccurance[value] = count
 
-            if r == count: 
-                out.append(l)
-                l = 0
+    for count, value in enumerate(s):
+        l += 1
+        # gets the max. index from enumerated value
+        r = max(r, lastOccurance[value])
 
-        return out
-      
+        if r == count:
+            out.append(l)
+            l = 0
+
+    return out

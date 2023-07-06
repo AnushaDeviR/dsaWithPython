@@ -18,15 +18,16 @@ Input: nums = [3,3], target = 6
 Output: [0,1]
 '''
 
+
 def twoSum(self, nums: List[int], target: int) -> List[int]:
 
-    prevMap = {} #hash map-> {value:index}
+    prevMap = {}  # hash map-> {value:index}
 
-    for i, n in enumerate(nums): #enumerate() acts as a counter for nums
-    # find difference of target and nums i.e. n
+    for i, n in enumerate(nums):  # enumerate() acts as a counter for nums
+        # find difference of target and nums i.e. n
         difference = target - n
         # return value and index of the difference
-        if difference in prevMap: 
+        if difference in prevMap:
             return [prevMap[difference], i]
         prevMap[n] = i
-    return 
+    return
