@@ -17,7 +17,7 @@ Output: true
                 
 def containsDuplicate(self, nums: List[int]) -> bool:
     '''
-    The below code takes time complexity of O(n^2) and space complexity of O(1)
+    The below brute-force code takes time complexity of O(n^2) and space complexity of O(1)
     '''
 
     # count = 0
