@@ -20,7 +20,7 @@ One possible encode method is: "we:;say:;:::;yes"
 '''
 def decode(strs):
 
-    # 1. Encode each word in the input with its length and a deliminator (;) before it and return it as a string: 
+    # 1. Encode each word in the input with its length and a delimiter (;) before it and return it as a string: 
 
     encodedString = ""
 
@@ -36,7 +36,7 @@ def decode(strs):
     # By using 2 pointers approach: set left pointer to 0th index and right pointer at left pointer 
     while l < len(encodedString):
         r = l 
-        # if deliminator found then increment r pointer
+        # if delimiter found then increment r pointer
         while encodedString[r] != ";":
             r += 1
 
