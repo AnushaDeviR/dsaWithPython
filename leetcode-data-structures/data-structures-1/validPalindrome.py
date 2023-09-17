@@ -27,27 +27,31 @@ s consists only of printable ASCII characters.
 
 
 def isPalindrome(self, s: str) -> bool:
-
+    # convert to lowercase
 
     s_lower = s.lower()
-#     isalnmum() removes everything else other than alphabets and numbers
-    s_al = [i for i in s_lower if i.isalnum()]
 
-    l = 0 
-    r = len(s_al) - 1
+    # remove all non-alphanumeric characters
+    s_raw = [i for i in s_lower if i.isalnum()]
 
-    if s_al == " " or len(s_al) == 1: 
+    # edge case => if s is empty then return true
+    if s_raw == " " or len(s_raw) == 1:
         return True
 
-    while l <= r: 
-        if s_al[l] != s_al[r]: 
+    # use two-pointers to check if each letters match by placing one pointer at the left and right
+
+    l = 0
+    r = len(s_raw) - 1
+
+    while l <= r:
+        if s_raw[l] != s_raw[r]:
             return False
+
         l += 1
         r -= 1
     return True
 
     
-        
-        
-        
-        
+    
+    
+    
